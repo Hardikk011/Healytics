@@ -1,0 +1,12 @@
+Django
+djangorestframework
+djangorestframework-simplejwt
+django-cors-headers
+Pillow
+tensorflow-cpu
+numpy
+opencv-python
+requests
+python-decouple
+gunicorn
+whitenoise
