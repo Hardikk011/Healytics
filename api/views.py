@@ -18,7 +18,7 @@ from .utils import predict_cancer_type, get_medicine_suggestions, get_cancer_inf
 import os
 import google.generativeai as genai
 
-genai.configure(api_key='AIzaSyCpcDeodxWxXeKmosfBxRYC_H7Wuvmr6D0')
+genai.configure(GOOGLE_API_KEY=os.getenv('GOOGLE_API_KEY', 'your-google-api-key'))
 class RegisterView(APIView):
     permission_classes = [permissions.AllowAny]
 
